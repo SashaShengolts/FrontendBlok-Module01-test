@@ -1,0 +1,28 @@
+.li1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: double;
+}
+.li2 {
+    text-decoration: line-through;
+    font-stretch: expanded;
+    text-decoration: overline;
+    text-decoration: underline;  }
+.li3 {
+    letter-spacing: 5px;
+}
+ol {
+    color: burlywood;
+    font-size: 20px;
+    text-decoration: overline;
+}
+q {
+text-transform: uppercase;
+font-weight: normal
+;
+}
+p {
+  font-weight: bold;
+  color: brown;
+
+}
