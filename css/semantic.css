@@ -1,67 +1,80 @@
-h1, h2, h3 {
- text-transform: uppercase;
- letter-spacing: 0,01rem;
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 0, 01rem;
 }
 
-  body {
-      font-family: "Roboto", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 14px;
-      letter-spacing: 1.5;
-  }
-  .header {
-      display: flex;
-      border-bottom: 1px solid #000;
-      padding: 10px 20px;
-      font-size: 20px;
-  }
- 
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 1.5;
+}
 
-  .logo {
-      text-decoration: none;
-      color: lightgreen;
-      background-color: rebeccapurple;
-      font-weight: 700;
-      padding: 5px 15px;
-      margin-right: 20px;
-  }
-  ul {
-      display: flex;
-      list-style-type: none;
-      padding-left: 0;
-      margin: 0;
-  }
-   ul>li {
-      margin-right: 30px;      
-  }
-  section {
+.header {
+    display: flex;
+    border-bottom: 1px solid #000;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+
+.logo {
+    text-decoration: none;
+    color: lightgreen;
+    background-color: rebeccapurple;
+    font-weight: 700;
+    padding: 5px 15px;
+    margin-right: 20px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+li:not(:last-child) {
+    margin-right: 100px;
+}
+
+h1+section {
+    background-color: moccasin;
+}
+
+section {
     background-color: lavender;
     padding: 5px 20px;
     margin-top: 20px;
-  }
-.link_search {
-            text-decoration: none;
-            color: rebeccapurple;
-            font-weight: 700;            
-        }
+}
 
-  .box {
-      display: flex;
-      margin-bottom: 30px;
-      gap: 20px;
-      border-bottom: 1px solid #000;
-  }
+.link {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+}
 
-  .aside {
+.box {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.aside {
     background-color: lavender;
     padding: 10px 20px;
-  }
+}
 
-  .post {
-      padding-bottom: 20px;
-  }
-   footer {
-       font-size: 13px;
-       padding: 0 20px;
-   }
+.post {
+    padding-bottom: 20px;
+}
+
+.footer {
+    font-size: 13px;
+    padding: 0 20px;
+}
